@@ -1,7 +1,7 @@
 $(window).scroll(function () {
 	// body...
-	if ($(this).scrollTop()>1) {
-		$('#navmenu').addClass("sticky");
+	if ($(this).scrollTop()>5) {
+		$('#navmenu').addClass("sticky").fade();
 		console.log('1');
 	}
 	else{

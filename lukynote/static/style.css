@@ -1,10 +1,28 @@
+body{
+	background-color: #EFE3D9;
+	--font-family: Vollkorn;
+	font-family: Fontin-Sans;
+}
+.container{
+z-index: 2;
+}
+
+.title{
+	font-weight: 500;
+	--background-color: #DEC6BF;
+	padding: 8px;
+	color: #8D0801;
+}
+.blogs{
+	background-color: #fff;
+}
 .navmenu{
 	position: fixed;
 	width: 100%;
 	text-align: center;
-
-	--background-color: #262626;
-	background-color: #12100E;
+	z-index: 1;
+	background-color: #8D0801;
+	--background-color: #12100E;
 	font-family: 'PT Sans' sans-serif;
 	color: #fff;
 	font-size: 22px;
@@ -17,7 +35,7 @@
 
 	font-size: 16;
 	color: #fff;
-	background-color: #8D0801;
+	background-color: #8D0801; /* red*/
 	text-align: left;
 	padding-left: 20px;
 	border-bottom: groove 35px #262626;
@@ -35,12 +53,22 @@
 .nav a {
     color: #fff;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
 }
-
+.btn-accent{
+	background-color: #fff;
+	color: #8D0801;
+	text-decoration: none;
+	box-shadow: inset 3px 0px 9px 4px #EFE3D9;
+}
+.btn-accent:hover{
+	color: #E20000;
+	
+}
 header{
 	background-color: #262626;
-	height: 50%;
+	height: 100%;
+	z-index: 1;
 }
 .jumbotron{
 
