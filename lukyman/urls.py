@@ -18,6 +18,6 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^','lukycode.views.index'),
-    url(r'^profile','lukycode.views.profile')
+    url(r'^$','lukycode.views.index'),
+    url(r'^lukyme','lukycode.views.lukyme')
 ]
