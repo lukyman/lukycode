@@ -4,4 +4,4 @@ from django.apps import AppConfig
 
 
 class LukynoteConfig(AppConfig):
-    name = 'lukynote'
+    name = 'lukycode'
