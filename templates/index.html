@@ -1,0 +1,42 @@
+{% load staticfiles %}
+<!DOCTYPE>
+<html>
+<head>
+
+	<title>Witfall Solutions</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="{% static 'bootstrap-3.3.6-dist/css/bootstrap.min.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'style.css'%}">
+	<script type="text/javascript" src="{% static 'bootstrap-3.3.6-dist/js/bootstrap.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'jquery-2.2.1.min.js'%}"></script>
+	<script type="text/javascript" src="{% static 'myjquery.js'%}"></script>
+</head>
+<body >
+
+<div id="navmenu" class=" navmenu">
+	<ul class="nav nav-pills">
+		<li ><a>Lukynote</a></li>
+		<li ><a>Lukyme</a></li>
+		<li ><a>Projects</a></li>
+	</ul> 
+
+</div>
+
+<header>
+<div class="jumbotron">
+	<p>Welcome to lukyman</p>
+</div>
+	
+</header>
+
+
+<div class="container">
+{% block content %}
+
+{% endblock %}
+</div>
+
+
+
+</body>
+</html>
