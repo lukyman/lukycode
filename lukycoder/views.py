@@ -4,8 +4,11 @@ from django.shortcuts import render
 
 def index(request):
 	
-	return render(request,'lukynote.html')
+	return render(request,'index.html')
 
 def lukyme(request):
 
 	return render(request,'lukyme.html')
+
+def lukynote(request):
+	return render(request,'lukynote.html')
